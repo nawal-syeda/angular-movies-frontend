@@ -1,0 +1,26 @@
+
+@if(!elements){
+    <span #loading>
+        <ng-content select="[loading]"></ng-content>
+    </span>
+    @if(!loading.innerHTML.trim()){
+    <div>
+      <img src="loading.gif" />  
+    </div>
+    }
+  }
+  @else if(elements.length==0){
+    <span #empty>
+        <ng-content select="[empty]"></ng-content>
+    </span>
+
+    @if(!empty.innerHTML.trim()){
+        <div>
+            there are no elements to display 
+          </div>
+    }
+    
+  }
+  @else{
+    <ng-content select="[content]"></ng-content>
+  }

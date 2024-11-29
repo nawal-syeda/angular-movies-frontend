@@ -17,7 +17,7 @@ import { GenresFormComponent } from "../genres-form/genres-form.component";
     MatFormFieldModule,
     MatInputModule,
     RouterLink,
-    GenresFormComponent
+   // GenresFormComponent
 ],
   templateUrl: './create-genre.component.html',
   styleUrl: './create-genre.component.css'

@@ -6,7 +6,7 @@ import { GenresFormComponent } from '../genres-form/genres-form.component';
   selector: 'app-edit-genre',
   standalone: true,
   imports: [
-    GenresFormComponent
+   // GenresFormComponent
   ],
   templateUrl: './edit-genre.component.html',
   styleUrl: './edit-genre.component.css'
